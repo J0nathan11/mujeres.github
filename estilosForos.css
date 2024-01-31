@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    background-image: url('img/lineas.jpg'); /* Reemplaza 'ruta_de_la_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; /* Ajusta el tamaño de la imagen de fondo según sea necesario */
+    background-position: center; /* Ajusta la posición de la imagen de fondo según sea necesario */
+}
+
+header {
+    width: 98.5%;
+    background-color: #ff8787;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+footer {
+    background-color: #ff8787;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 98.5%;
+}

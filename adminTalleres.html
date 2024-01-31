@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosAdminTall.css">
+    <title>Agregar Talleres y Eventos</title>
+</head>
+<body>
+
+    <header>
+        <h1>Agregar Talleres y Eventos</h1>
+        <a href="controlAdmin.html">Volver</a>
+    </header>
+
+    <main>
+        <section>
+            <form id="formularioEventosTalleres">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+                <button type="submit">Agregar Taller o Evento</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Plataforma de Mujeres Emprendedoras</p>
+    </footer>
+
+</body>
+</html>
